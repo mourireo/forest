@@ -1,0 +1,435 @@
+body {
+    color: #323232;
+    background: #ffffff;
+    line-height: 1;
+    font-family: 'Noto Sans JP', sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+.red{
+    color: #cc5777;
+}
+.gray{
+    color: #c1c1c1;
+}
+
+.arrow-right{
+    float: right;
+}
+
+.blue{
+    background-color: #5dc1cf;
+}
+/*文字を太くする*/
+.bold{
+    font-weight:bold;
+}
+/*グリッド*/
+.grid_small {
+    max-width: 730px;
+    min-width: 343px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.grid_big{
+    max-width: 1100px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+/*h2*/
+.h2Title {
+    font-size: 3.3rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family:"ヒラギノ明朝 Pro";
+    margin-top: 60px;
+}
+  
+.h2Title span {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 2px;
+    letter-spacing: 0;
+}
+/*要素を右に寄せる*/
+.right {
+    float: right;
+}
+.allSection{
+    max-width: 1100px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+.reservation{
+    text-align: center;
+    margin-top: 40px;
+}
+
+ /*予約ボタン*/ 
+.reservation_button{
+    display: block;
+    width: 730px;
+    height: 48px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    border-radius:4px;
+    font-size: 1.8rem;
+}
+
+.freeInfo{
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+/*空席情報*/
+.freeInfo_txt{
+    margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.freeInfo_txt::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 14px;
+    margin-right: 4px;
+    background-color: #323232;
+}
+
+.freeInfo_tel{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: -1.0px;
+}
+
+.freeInfo_date table{
+    margin-top: 10px;
+    width: 100%;
+    height: 82px;
+    border-collapse: collapse;
+    text-align: center;
+    border: solid 1px #dddddd;
+}
+
+.freeInfo_date table th{
+    border: solid 1px #dddddd;
+    text-align: center;
+    height: 39px;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+
+.freeInfo_date table td{
+    border: solid 1px #dddddd;
+    text-align: center;
+    height: 40px;
+    font-size: 1.6rem;
+    vertical-align: middle;
+}
+
+/*ヘアスタイル*/
+.hairStyle_img{
+    margin-top: 20px;
+    text-align: center;
+}
+/*ハッシュタグ*/
+.hairStyle_tagList{
+    margin-top: 8px;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+
+.tagList_item {
+    margin: 0px 8px 7px 0;
+    padding: 5px 7px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: #848484;
+    border: solid 1px #f0f0f0;
+    cursor: pointer;
+}
+
+.insta_button{
+    width: 345px;
+    height: 48px;
+    margin-top: 9px;
+    font-size: 1.4rem;
+    border: solid 2px #5dc1cf;
+    outline: none;
+    cursor: pointer;
+    background-color:#fff;
+}
+.center{
+    text-align: center;
+    background-color: #ffffff;
+}
+.insta_button img{
+    padding-top: 8px;
+}
+.insta_button span{
+    text-align: center;
+    margin-top: 4px;
+}
+
+.newInfo{
+    margin-top: 42px;
+    margin-left: 185px;
+    width: 730px;
+}
+.newInfo .newInfo-title{
+    font-size: 15px;
+    padding-left: 5px;
+    border-left: 5px solid #313131;
+}
+
+.newArrival{
+    margin-top: 10px;
+}
+
+.newArrival dl{
+    margin-top: 17px;
+}
+
+.newArrival dt{
+    font-size: 13px;
+}
+
+.newArrival .date{
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+.newArrival .info{
+    margin-top: 7px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.infoBox{
+    padding-bottom: 22px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #313131;
+}
+.infoBox2{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #313131;
+}
+
+.more{
+    text-align: right;
+    margin-top: 13px;
+}
+
+.more a{
+    text-decoration: none;
+    color: #5dc1cf;
+    font-size: 15px;
+}
+
+
+/*FORESTをはじめてご利用される方へ*/
+.newCustomer{
+    background-color: #f0f0f0;
+    font-size: 16px;
+    width: 1100px;
+    height: 386px;
+}
+.newCustomer p{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.coupon-reservation{
+    max-width: 720px;
+    height: 68px;
+    margin: 0 auto;
+    padding-top: 11px;
+    padding-left: 10px;
+    margin-left: 185px;
+    border-radius: 9px;
+    background-color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.coupon-reservation dd{
+    margin-top: 10px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+
+.coupon-reservation button{
+    margin-top: 10px;
+    margin-right: 19px;
+    width: 196px;
+    height: 33px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.submit-button{
+    margin-top: 11px;
+    text-align: right;
+    margin-right: 180px;
+}
+
+.submit-button li {
+    display: inline;
+}
+
+.submit-button a{
+    text-decoration: none;
+    color: #5dc1cf;
+    font-size: 13px;
+}
+
+.a1{
+    margin-right:24px;
+}
+
+.staff{
+    margin-top: 31px;
+    max-width: 720px;
+}
+
+.staff-face{
+    margin-top: 16px;
+}
+
+.staff-face tr{
+    margin-bottom: 10px;
+}
+
+.staff-face td{
+    text-align: center;
+    color: #323232;
+}
+
+.staff-list{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.staff-list button{
+    border: 1px solid;
+    font-size: 15px;
+    width: 343px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer-p1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.footer-img2{
+    margin-top: 20px;
+}
+
+.footer-p2{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 15px;
+}
+
+.footer-p3{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+.footer-p4{
+    text-align: center;
+    font-size: 14.5px;
+    margin-top: 14px;
+    color: #5dc1cf;
+}
+
+.tel p{
+    display:inline-block;
+    vertical-align:top; /*縦方向の揃え位置を指定*/
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.instagram{
+    margin-top: 17px;
+}
+
+.footer-list{
+    margin-top: 35px;
+    max-width: 500px;
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+
+.footer-list ul{
+    display: flex;
+  /*justify-content: space-between;*/
+}
+   
+.footer-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer-list li {
+    list-style-type: none;
+    background-color: #fff;
+    color: #000;
+    flex-grow: 1;
+    text-align: center;
+  }
+.footer-list li+ li {
+    border-left: 0.5px solid #333;
+}
+
+.footer-line{
+    margin: 0 calc(50% - 50vw);
+    height: 50px;
+    background-color: #323232;
+    position: relative;
+}
+.footer-line p{
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
