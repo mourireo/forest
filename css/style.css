@@ -62,23 +62,36 @@ body {
 }
 
 .reservation{
+    width: 100%;
     text-align: center;
     margin-top: 40px;
+}
+
+.reservation button {
+    width: 100%;
+    height: 48px;
+    font-size: 1.8rem;
+    max-width: 730px;
+    min-width: 375px;
 }
 
  /*予約ボタン*/ 
 .reservation_button{
     display: block;
-    width: 730px;
-    height: 48px;
-    color: #ffffff;
     border: none;
     text-align: center;
     border-radius:4px;
-    font-size: 1.8rem;
+    border: 0;
+    text-align: center;
 }
 
-.freeInfo{
+.reservation_button p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.free-info{
     margin-top: 20px;
     width: 100%;
     display: -webkit-box;
@@ -94,8 +107,8 @@ body {
     margin: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     font-size: 1.4rem;
+    display: flex;
 }
 
 .freeInfo_txt::before{
@@ -123,6 +136,8 @@ body {
     border-collapse: collapse;
     text-align: center;
     border: solid 1px #dddddd;
+    max-width: 730px;
+    min-width: 375px;
 }
 
 .freeInfo_date table th{
@@ -144,8 +159,14 @@ body {
 
 /*ヘアスタイル*/
 .hairStyle_img{
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px auto 0;
+    max-width: 730px;
+    min-width: 375px;
+}
+
+.hairStyle_img img {
+    width: 100%;
+    height: auto;
 }
 /*ハッシュタグ*/
 .hairStyle_tagList{
@@ -189,16 +210,22 @@ body {
     margin-top: 4px;
 }
 
-.newInfo{
-    margin-top: 42px;
-    margin-left: 185px;
-    width: 730px;
+.newInfo-title{
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.4rem;
 }
-.newInfo .newInfo-title{
-    font-size: 15px;
-    padding-left: 5px;
-    border-left: 5px solid #313131;
+.newInfo-title::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 14px;
+    margin-right: 4px;
+    background-color: #323232;
 }
+
 
 .newArrival{
     margin-top: 10px;
